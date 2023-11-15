@@ -1,4 +1,7 @@
 node_modules/
+videos/
+audio/
+images/
 .expo/
 dist/
 npm-debug.*
