@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc471aa1-00b1-48df-96e9-c0ea9ea4d260" name="Changes" comment="" />
+    <list default="true" id="cc471aa1-00b1-48df-96e9-c0ea9ea4d260" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,15 +37,16 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "javascript.nodejs.core.library.configured.version": "20.8.0",
-    "javascript.nodejs.core.library.typings.version": "20.8.0",
-    "last_opened_file_path": "F:/Dev/MFK New Buckold/MDK-Backend",
+    "git-widget-placeholder": "main",
+    "javascript.nodejs.core.library.configured.version": "18.18.0",
+    "javascript.nodejs.core.library.typings.version": "18.18.0",
+    "last_opened_file_path": "/Users/macbook132017/Documents/MacDev/mdk-backend/mdk-backend",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\masyo\\AppData\\Roaming\\npm\\node_modules\\prettier",
+    "prettierjs.PrettierConfiguration.Package": "C:/Users/masyo/AppData/Roaming/npm/node_modules/prettier",
     "settings.editor.selected.configurable": "settings.javascript.prettier",
     "vue.rearranger.settings.migration": "true"
   }
@@ -69,6 +73,7 @@
       <workItem from="1698740156306" duration="326000" />
       <workItem from="1698741765020" duration="9000" />
       <workItem from="1700049877282" duration="3874000" />
+      <workItem from="1711514367748" duration="300000" />
     </task>
     <servers />
   </component>
