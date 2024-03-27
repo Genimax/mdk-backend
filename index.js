@@ -16,7 +16,15 @@ const imageFilesDirectory = path.join(__dirname, "images");
 
 /////////////////// Получить список объектов
 app.get("/data", (req, res) => {
-  res.json(data);
+
+          const response = {
+    initLocation: {latitude: 48.66221009862272,
+      longitude: 44.54068093040059},
+    updateAvailable: false,
+    points: data,
+  };
+  res.json(response);
+
 });
 
 /////////////////// Получить данные объекта по ID
