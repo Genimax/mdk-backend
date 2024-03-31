@@ -3,6 +3,7 @@ const path = require("path");
 const cors = require("cors");
 
 const data = require("./data");
+const points = require("./data/points.json");
 
 const app = express();
 const PORT = 80;
@@ -17,20 +18,14 @@ const imageFilesDirectory = path.join(__dirname, "images");
 /////////////////// Получить список объектов
 app.get("/data", (req, res) => {
 
-          const response = {
-    initLocation: {latitude: 48.66221009862272,
-      longitude: 44.54068093040059},
-    updateAvailable: false,
-    points: data,
-  };
-  res.json(response);
-
+    res.json(points);
+  
 });
 
 /////////////////// Получить данные объекта по ID
 app.get("/data/:id", (req, res) => {
   const objectId = Number(req.params.id);
-  const object = data.find((obj) => obj.id === objectId);
+  const object = points.points.find((obj) => obj.id === objectId);
 
   if (object) {
     res.json(object);
