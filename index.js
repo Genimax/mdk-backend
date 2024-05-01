@@ -6,7 +6,7 @@ const data = require("./data");
 const points = require("./data/points.json");
 
 const app = express();
-const PORT = 80;
+const PORT = 3000;
 
 app.use(express.json());
 app.use(cors());
@@ -17,9 +17,7 @@ const imageFilesDirectory = path.join(__dirname, "images");
 
 /////////////////// Получить список объектов
 app.get("/data", (req, res) => {
-
-    res.json(points);
-  
+  res.json(points);
 });
 
 /////////////////// Получить данные объекта по ID
